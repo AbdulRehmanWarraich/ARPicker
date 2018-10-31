@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CD0B8F0F1072B78EE528975D909A2B /* Pods-ARPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92722AC3CE3BAC20F85ADA828BACC6BA /* Pods-ARPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20E87296F9A9142E18C5FE472DEBA1EA /* ARPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0631E0F3E2C2E84557644EBC3AE7E0EA /* ARPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352034CD9EA7DC8B08CAA11FC1F66B25 /* ARPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB358EE02ACC175E64C95D118D6BD8D /* ARPicker-dummy.m */; };
+		3668BB01E1434F54F94F9B6C377FBB80 /* Pods-ARPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 190EEC9A2C120B369F812B7A939B5D5A /* Pods-ARPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F6B52F4EE4FC8685B021B7B1CCFB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		43B74B9124E25FE55D583F0E42155F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		78A36D4B719B1A3BF5F27FE31EAFEB59 /* Pods-ARPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68198443389E51CA45D0E71968488749 /* Pods-ARPicker_Tests-dummy.m */; };
+		8BD2D6C260C5043D32E2178D38D88C36 /* Pods-ARPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 083BD1FD24F9DBFA2CF8B14BA50D2B1E /* Pods-ARPicker_Example-dummy.m */; };
+		8C2FFC972189B68300DDD1F9 /* ARPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FFC962189B68300DDD1F9 /* ARPicker.swift */; };
+		B2641EA793ED9437654676395989148C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B61C309F396400AF4EEFDD2A688937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E674AFDB0D2FFFCE9EFE4248DBD47A1C;
+			remoteInfo = "Pods-ARPicker_Example";
+		};
+		BEE2B8F258C2EA13F6F56837A3BE7C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550E8C2F82C7C0AE2F4D0A143BF68518;
+			remoteInfo = ARPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009D5E6AB78ABC7D5BBF8947AD8E6EED /* Pods_ARPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BB34BB5E5239FABEEC81B3660E6765 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0598664E08819315B257DADCE2A92195 /* ARPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ARPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0631E0F3E2C2E84557644EBC3AE7E0EA /* ARPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARPicker-umbrella.h"; sourceTree = "<group>"; };
+		083BD1FD24F9DBFA2CF8B14BA50D2B1E /* Pods-ARPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		0EEFBE1A496369A20169826EA65AF794 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		190EEC9A2C120B369F812B7A939B5D5A /* Pods-ARPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1D38111ABA9EC685BA124F898E214403 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3194FC7E36CF472B5F6B8A26CFD1D4F0 /* Pods-ARPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3459FF933AF0C321FE05310DDC724F75 /* Pods-ARPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		353C45CB0793BE87E0B1AD144F4A6489 /* Pods_ARPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5DF80D1A616A6E163CAD2381B9CD09 /* Pods-ARPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		4ADA964C19BDED01B17C7AE1CDC6FD49 /* ARPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F993FD8F1F5EDAFB3DEA030C6901B94 /* Pods-ARPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		6333706CDA3B65CF084A4E002E44299B /* Pods-ARPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68198443389E51CA45D0E71968488749 /* Pods-ARPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		6A790E82D0F63090B9A3DC0DF27CFEFF /* Pods-ARPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A9F81336E220C5A0266FC67FE7EC542 /* Pods-ARPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EBB9C3415D8C3B61CA053F1AB468EBB /* Pods-ARPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6F072A0876EDBFE4A067AB73FD39F7B8 /* Pods-ARPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C2FFC962189B68300DDD1F9 /* ARPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARPicker.swift; path = ARPicker/Classes/ARPicker.swift; sourceTree = "<group>"; };
+		9080351B6C0F861E5629F143E86AA47D /* Pods-ARPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		92722AC3CE3BAC20F85ADA828BACC6BA /* Pods-ARPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34070B7F0F268C3C51268CA5471CDB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D9C7E7535F8FB6AC4A46509C138AE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79E718CACA96DF165C613C2D80F6DA6 /* ARPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARPicker.xcconfig; sourceTree = "<group>"; };
+		AADB03332910EC87109E12E153B4C892 /* ARPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARPicker-prefix.pch"; sourceTree = "<group>"; };
+		AB217D9286F25B1091822B91C180EC0B /* Pods-ARPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARPicker_Example.modulemap"; sourceTree = "<group>"; };
+		AF6EE7AB74C9A04FAE28E7E77EF0F94B /* ARPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARPicker.modulemap; sourceTree = "<group>"; };
+		B9A388FF2A373CD8D41DF50890575CE4 /* Pods-ARPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C237E09E96ACB3511C524BDA508B00FA /* Pods-ARPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DBCA6C6446428193147F8719E07B0FDD /* Pods-ARPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB358EE02ACC175E64C95D118D6BD8D /* ARPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARPicker-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D125D6A6BCAFA46598A866F641E2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B74B9124E25FE55D583F0E42155F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868196185DD43171FFEDA0BFE22111BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2641EA793ED9437654676395989148C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5ACCB4FAA1FF4DDB029BD1B733796D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382F6B52F4EE4FC8685B021B7B1CCFB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06AA510C227CCC34B7E086A3289B115E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6290C5F8110A5E17EA9A45DE74EDC55 /* ARPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3FB00F585D37A3B7F6E9667B124EC4DE /* Pods-ARPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1D38111ABA9EC685BA124F898E214403 /* Info.plist */,
+				3D5DF80D1A616A6E163CAD2381B9CD09 /* Pods-ARPicker_Tests.modulemap */,
+				6A9F81336E220C5A0266FC67FE7EC542 /* Pods-ARPicker_Tests-acknowledgements.markdown */,
+				6A790E82D0F63090B9A3DC0DF27CFEFF /* Pods-ARPicker_Tests-acknowledgements.plist */,
+				68198443389E51CA45D0E71968488749 /* Pods-ARPicker_Tests-dummy.m */,
+				C237E09E96ACB3511C524BDA508B00FA /* Pods-ARPicker_Tests-frameworks.sh */,
+				3459FF933AF0C321FE05310DDC724F75 /* Pods-ARPicker_Tests-resources.sh */,
+				190EEC9A2C120B369F812B7A939B5D5A /* Pods-ARPicker_Tests-umbrella.h */,
+				B9A388FF2A373CD8D41DF50890575CE4 /* Pods-ARPicker_Tests.debug.xcconfig */,
+				3194FC7E36CF472B5F6B8A26CFD1D4F0 /* Pods-ARPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-ARPicker_Tests";
+			path = "Target Support Files/Pods-ARPicker_Tests";
+			sourceTree = "<group>";
+		};
+		5D448384963142F5386E372243D06A87 /* Pods-ARPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9C7E7535F8FB6AC4A46509C138AE1 /* Info.plist */,
+				AB217D9286F25B1091822B91C180EC0B /* Pods-ARPicker_Example.modulemap */,
+				6F072A0876EDBFE4A067AB73FD39F7B8 /* Pods-ARPicker_Example-acknowledgements.markdown */,
+				9080351B6C0F861E5629F143E86AA47D /* Pods-ARPicker_Example-acknowledgements.plist */,
+				083BD1FD24F9DBFA2CF8B14BA50D2B1E /* Pods-ARPicker_Example-dummy.m */,
+				6EBB9C3415D8C3B61CA053F1AB468EBB /* Pods-ARPicker_Example-frameworks.sh */,
+				5F993FD8F1F5EDAFB3DEA030C6901B94 /* Pods-ARPicker_Example-resources.sh */,
+				92722AC3CE3BAC20F85ADA828BACC6BA /* Pods-ARPicker_Example-umbrella.h */,
+				DBCA6C6446428193147F8719E07B0FDD /* Pods-ARPicker_Example.debug.xcconfig */,
+				6333706CDA3B65CF084A4E002E44299B /* Pods-ARPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-ARPicker_Example";
+			path = "Target Support Files/Pods-ARPicker_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				06AA510C227CCC34B7E086A3289B115E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EB640CB6158844942B78F671A4ECD92A /* Products */,
+				CABA1ACB38571972C7B6405478F24A3D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B6290C5F8110A5E17EA9A45DE74EDC55 /* ARPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FFC962189B68300DDD1F9 /* ARPicker.swift */,
+				FE6FE3C25C1F97F3A6D997D9ACE2C801 /* Pod */,
+				D3C71BD0A2A102B54B6B106630279C3B /* Support Files */,
+			);
+			name = ARPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABA1ACB38571972C7B6405478F24A3D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D448384963142F5386E372243D06A87 /* Pods-ARPicker_Example */,
+				3FB00F585D37A3B7F6E9667B124EC4DE /* Pods-ARPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3C71BD0A2A102B54B6B106630279C3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6EE7AB74C9A04FAE28E7E77EF0F94B /* ARPicker.modulemap */,
+				A79E718CACA96DF165C613C2D80F6DA6 /* ARPicker.xcconfig */,
+				FFB358EE02ACC175E64C95D118D6BD8D /* ARPicker-dummy.m */,
+				AADB03332910EC87109E12E153B4C892 /* ARPicker-prefix.pch */,
+				0631E0F3E2C2E84557644EBC3AE7E0EA /* ARPicker-umbrella.h */,
+				A34070B7F0F268C3C51268CA5471CDB9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ARPicker";
+			sourceTree = "<group>";
+		};
+		EB640CB6158844942B78F671A4ECD92A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADA964C19BDED01B17C7AE1CDC6FD49 /* ARPicker.framework */,
+				009D5E6AB78ABC7D5BBF8947AD8E6EED /* Pods_ARPicker_Example.framework */,
+				353C45CB0793BE87E0B1AD144F4A6489 /* Pods_ARPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6FE3C25C1F97F3A6D997D9ACE2C801 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0598664E08819315B257DADCE2A92195 /* ARPicker.podspec */,
+				0EEFBE1A496369A20169826EA65AF794 /* LICENSE */,
+				03BB34BB5E5239FABEEC81B3660E6765 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EDEFE117BECDE02F2F1E47F6DFDB94C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CD0B8F0F1072B78EE528975D909A2B /* Pods-ARPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64827F226AD6B0BAE33DBC4FA99EEF35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E87296F9A9142E18C5FE472DEBA1EA /* ARPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC313DC17AC9B79D4AD1FFE7B129627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3668BB01E1434F54F94F9B6C377FBB80 /* Pods-ARPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		550E8C2F82C7C0AE2F4D0A143BF68518 /* ARPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D095F221AE2D36F53E9CADF8A408F08 /* Build configuration list for PBXNativeTarget "ARPicker" */;
+			buildPhases = (
+				E36CB75ED57DFA92CA94B024C79EAFB9 /* Sources */,
+				868196185DD43171FFEDA0BFE22111BF /* Frameworks */,
+				64827F226AD6B0BAE33DBC4FA99EEF35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARPicker;
+			productName = ARPicker;
+			productReference = 4ADA964C19BDED01B17C7AE1CDC6FD49 /* ARPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A16EF6AF0DEAD8F6F27F3D5B9764E738 /* Pods-ARPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC28364EA1CB055A6409CCF71EEF606 /* Build configuration list for PBXNativeTarget "Pods-ARPicker_Tests" */;
+			buildPhases = (
+				74B2CEACF3EA3DED805E6EBA6528C1B9 /* Sources */,
+				46D125D6A6BCAFA46598A866F641E2AB /* Frameworks */,
+				6DC313DC17AC9B79D4AD1FFE7B129627 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3432D1916DE6F268C2220CDFBC498AC7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARPicker_Tests";
+			productName = "Pods-ARPicker_Tests";
+			productReference = 353C45CB0793BE87E0B1AD144F4A6489 /* Pods_ARPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E674AFDB0D2FFFCE9EFE4248DBD47A1C /* Pods-ARPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BCF7E1575C4DD62E28BAE6FE5B3AD4 /* Build configuration list for PBXNativeTarget "Pods-ARPicker_Example" */;
+			buildPhases = (
+				F25DC14BD1E297EFEBFC9354F517C8DE /* Sources */,
+				9E5ACCB4FAA1FF4DDB029BD1B733796D /* Frameworks */,
+				4EDEFE117BECDE02F2F1E47F6DFDB94C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A2DF82C275C561CB52B30D1A6844FB /* PBXTargetDependency */,
+			);
+			name = "Pods-ARPicker_Example";
+			productName = "Pods-ARPicker_Example";
+			productReference = 009D5E6AB78ABC7D5BBF8947AD8E6EED /* Pods_ARPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					550E8C2F82C7C0AE2F4D0A143BF68518 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EB640CB6158844942B78F671A4ECD92A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550E8C2F82C7C0AE2F4D0A143BF68518 /* ARPicker */,
+				E674AFDB0D2FFFCE9EFE4248DBD47A1C /* Pods-ARPicker_Example */,
+				A16EF6AF0DEAD8F6F27F3D5B9764E738 /* Pods-ARPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B2CEACF3EA3DED805E6EBA6528C1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A36D4B719B1A3BF5F27FE31EAFEB59 /* Pods-ARPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36CB75ED57DFA92CA94B024C79EAFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2FFC972189B68300DDD1F9 /* ARPicker.swift in Sources */,
+				352034CD9EA7DC8B08CAA11FC1F66B25 /* ARPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25DC14BD1E297EFEBFC9354F517C8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD2D6C260C5043D32E2178D38D88C36 /* Pods-ARPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3432D1916DE6F268C2220CDFBC498AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARPicker_Example";
+			target = E674AFDB0D2FFFCE9EFE4248DBD47A1C /* Pods-ARPicker_Example */;
+			targetProxy = 17B61C309F396400AF4EEFDD2A688937 /* PBXContainerItemProxy */;
+		};
+		55A2DF82C275C561CB52B30D1A6844FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARPicker;
+			target = 550E8C2F82C7C0AE2F4D0A143BF68518 /* ARPicker */;
+			targetProxy = BEE2B8F258C2EA13F6F56837A3BE7C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		132213F6D7B0477338E87EDD18118A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3194FC7E36CF472B5F6B8A26CFD1D4F0 /* Pods-ARPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARPicker_Tests/Pods-ARPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62B21BB392CE8A06FA4C974549DEC5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCA6C6446428193147F8719E07B0FDD /* Pods-ARPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARPicker_Example/Pods-ARPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		670F7B047FCC7BC24F7CD93CBF10F246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A388FF2A373CD8D41DF50890575CE4 /* Pods-ARPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARPicker_Tests/Pods-ARPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76673CF1695DFF9408AD35F4C895620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6333706CDA3B65CF084A4E002E44299B /* Pods-ARPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARPicker_Example/Pods-ARPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BEACEE9A6EAE65B187651C6290E9D79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79E718CACA96DF165C613C2D80F6DA6 /* ARPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARPicker/ARPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARPicker/ARPicker.modulemap";
+				PRODUCT_MODULE_NAME = ARPicker;
+				PRODUCT_NAME = ARPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC4481A9A59C981487A90A1F42F9B829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79E718CACA96DF165C613C2D80F6DA6 /* ARPicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARPicker/ARPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARPicker/ARPicker.modulemap";
+				PRODUCT_MODULE_NAME = ARPicker;
+				PRODUCT_NAME = ARPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D095F221AE2D36F53E9CADF8A408F08 /* Build configuration list for PBXNativeTarget "ARPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEACEE9A6EAE65B187651C6290E9D79C /* Debug */,
+				DC4481A9A59C981487A90A1F42F9B829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BCF7E1575C4DD62E28BAE6FE5B3AD4 /* Build configuration list for PBXNativeTarget "Pods-ARPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B21BB392CE8A06FA4C974549DEC5C4 /* Debug */,
+				76673CF1695DFF9408AD35F4C895620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC28364EA1CB055A6409CCF71EEF606 /* Build configuration list for PBXNativeTarget "Pods-ARPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670F7B047FCC7BC24F7CD93CBF10F246 /* Debug */,
+				132213F6D7B0477338E87EDD18118A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

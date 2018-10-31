@@ -1,0 +1,16 @@
+PODS:
+  - ARPicker (0.1.0)
+
+DEPENDENCIES:
+  - ARPicker (from `../`)
+
+EXTERNAL SOURCES:
+  ARPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARPicker: 5c2c5433825e652d65a06861dba7f03078e6bee8
+
+PODFILE CHECKSUM: 3f79eb9cdd3235672a6a56b0f3779821e3f5838f
+
+COCOAPODS: 1.5.0
