@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ARPicker_Example' do
+  pod 'ARPicker', :path => '../'
+
+  target 'ARPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
