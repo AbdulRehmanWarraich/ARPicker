@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ARPicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ARPicker.'
+  s.version          = '1.0'
+  s.summary          = 'ARPicker is a picker viewController which enables to select options with minimum effort'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"ARPicker is a picker viewController which enables to select options with minimum effort. This based on UIViewController and UIPicker. options list, cancel and done and current selected option are configurable."
                        DESC
 
-  s.homepage         = 'https://github.com/ar.warraich@outlook.com/ARPicker'
+  s.homepage         = 'https://github.com/AbdulRehmanWarraich/ARPicker.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ar.warraich@outlook.com' => 'abdul.rehman@evampsaanga.com' }
-  s.source           = { :git => 'https://github.com/ar.warraich@outlook.com/ARPicker.git', :tag => s.version.to_s }
+  s.author           = { 'AbdulRehman Warraich' => 'ar.warraich@outlook.com' }
+  s.source           = { :git => 'https://github.com/AbdulRehmanWarraich/ARPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ARPicker/Classes/**/*'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'ARPicker' => ['ARPicker/Assets/*.png']

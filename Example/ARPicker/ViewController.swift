@@ -23,14 +23,14 @@ class ViewController: UIViewController {
 
     @IBAction func showPicker(_ sender: UIButton) {
         
-        self.showPickerView(options: countryList, selectedOption: self.selectedValueLabel.text, doneTitleText: "Done",cancelTitleText: "Cancel") { (selectedValue, selectedIndex) in
+        self.showPickerView(options: countryList, selectedOption: self.selectedValueLabel.text, doneTitleText: "Done",cancelTitleText: "Cancel",didSelectDate: { (selectedValue, selectedIndex) in
            
             print("Selected value: \(selectedValue)")
             print("Selected Index: \(selectedIndex)")
             
             self.selectedValueLabel.text = selectedValue
             self.selectedIndexLabel.text = "\(selectedIndex + 1)"
-        }
+        })
     }
 }
 
