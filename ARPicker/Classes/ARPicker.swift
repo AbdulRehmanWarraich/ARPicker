@@ -105,7 +105,7 @@ open class ARPickerVC: UIViewController {
         pickerView.delegate = self
         pickerView.dataSource = self
         
-        self.pickerView.selectRow(self.optionsArray.index(of: self.selectedOption) ?? 0, inComponent: 0, animated: true)
+        self.pickerView.selectRow(self.optionsArray.firstIndex(of: self.selectedOption) ?? 0, inComponent: 0, animated: true)
         
     }
     

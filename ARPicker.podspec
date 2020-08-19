@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ARPicker'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'ARPicker is a picker viewController which enables to select options with minimum effort'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ARPicker/Classes/**/*'
-  s.swift_version = '4.2'
+  s.swift_version = '5'
   
   # s.resource_bundles = {
   #   'ARPicker' => ['ARPicker/Assets/*.png']
